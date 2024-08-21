@@ -13,6 +13,7 @@ body {
 
 .sectionStyle {
   display: flex;
+  justify-content: center;
   overflow-x: auto;
   flex-wrap: nowrap;
   gap: 2rem;
