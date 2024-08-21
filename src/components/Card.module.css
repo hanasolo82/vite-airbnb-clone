@@ -1,0 +1,59 @@
+/*foto y el texto de encima*/
+* {
+  font-family: Poppins;
+}
+.Container {
+  display: flex;
+  width: 15rem;
+  height: 20rem;
+  font-weight: bolder;
+  color: #222;
+  position: relative;
+  flex: 0 0 auto; /* Asgura que el tamaño del contenedor se ajuste a la imagen */
+  
+  
+  
+}
+.leftImage {
+  width: 100%; /*del container*/
+  border-radius: 9px;
+  
+}
+.photoText {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  margin: 0;
+  height: 2rem;
+  width: 6.1rem;
+  background-color: white;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  text-align: center;
+}
+/*conjunto texto debajo de la foto*/
+
+
+.photoStats {
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.photoStartImg {
+  width: 1.6rem;
+  height: 1.6rem;
+  
+}
+.numStars {
+ margin-left: 0.5rem;
+}
+.numOnline{
+  color: grey;
+  margin-left: 0.5rem;
+}
+.location {
+  color: grey;
+}
+.price {
+ font-weight: bold;
+}

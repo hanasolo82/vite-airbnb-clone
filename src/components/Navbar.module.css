@@ -1,0 +1,14 @@
+
+
+.navbar {
+    margin: 0;
+    height: 7rem;
+    width: auto;
+    box-shadow: 0 0 0.9rem #d5d5d5;
+}
+
+.navbar > img {
+    width: 8.2rem;
+    height: 2.5rem;
+    margin: 2rem auto 2.2rem 3rem;
+}
